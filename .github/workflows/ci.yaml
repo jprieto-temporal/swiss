@@ -40,7 +40,6 @@ jobs:
         go:
           - '1.24'
           - '1.25'
-          - '>=1.26.0-rc.1'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
