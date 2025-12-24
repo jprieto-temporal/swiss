@@ -19,7 +19,8 @@ jobs:
           - '1.22'
           - '1.23'
           - '1.24'
-          - '>=1.25.0-rc.1'
+          - '1.25'
+          - '>=1.26.0-rc.1'
 
     runs-on: ${{ matrix.os }}
 
@@ -38,7 +39,8 @@ jobs:
       matrix:
         go:
           - '1.24'
-          - '>=1.25.0-rc.1'
+          - '1.25'
+          - '>=1.26.0-rc.1'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -56,7 +58,8 @@ jobs:
       matrix:
         go:
           - '1.24'
-          - '>=1.25.0-rc.1'
+          - '1.25'
+          - '>=1.26.0-rc.1'
     steps:
       - uses: actions/checkout@v2
 
@@ -74,7 +77,8 @@ jobs:
       matrix:
         go:
           - '1.24'
-          - '>=1.25.0-rc.1'
+          - '1.25'
+          - '>=1.26.0-rc.1'
     steps:
       - uses: actions/checkout@v2
 
@@ -91,7 +95,8 @@ jobs:
       matrix:
         go:
           - '1.24.4'
-          - '1.25rc1'
+          - '1.25.5'
+          - '1.26rc1'
     steps:
       - uses: actions/checkout@v2
 
